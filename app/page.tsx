@@ -4,9 +4,9 @@ import { useEffect } from "react";
 import Image from "next/image";
 
 export default function Home() {
-  useEffect(() => {
-    throw new Error("This is a test error");
-  }, []);
+  // useEffect(() => {
+  //   throw new Error("This is a test error");
+  // }, []);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
